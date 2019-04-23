@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/Users/nico7et8/code/marienbad/.stack-work/install/x86_64-osx/lts-12.22/8.4.4/bin"
-libdir     = "/Users/nico7et8/code/marienbad/.stack-work/install/x86_64-osx/lts-12.22/8.4.4/lib/x86_64-osx-ghc-8.4.4/marienbad-0.1.0.0-L49y4EJlKtBCOi3yegu10Z-marienbad"
+libdir     = "/Users/nico7et8/code/marienbad/.stack-work/install/x86_64-osx/lts-12.22/8.4.4/lib/x86_64-osx-ghc-8.4.4/marienbad-0.1.0.0-JTyUPfAjkNCDnDBtLLjkmB-marienbad"
 dynlibdir  = "/Users/nico7et8/code/marienbad/.stack-work/install/x86_64-osx/lts-12.22/8.4.4/lib/x86_64-osx-ghc-8.4.4"
 datadir    = "/Users/nico7et8/code/marienbad/.stack-work/install/x86_64-osx/lts-12.22/8.4.4/share/x86_64-osx-ghc-8.4.4/marienbad-0.1.0.0"
 libexecdir = "/Users/nico7et8/code/marienbad/.stack-work/install/x86_64-osx/lts-12.22/8.4.4/libexec/x86_64-osx-ghc-8.4.4/marienbad-0.1.0.0"

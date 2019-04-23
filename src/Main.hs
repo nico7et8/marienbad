@@ -13,8 +13,13 @@ type Row = Int
 type Pick = Int
 data Move = Move Row Pick
 
+setString :: Set -> Int -> String
+setString [] _ = "" 
+setString (p:ps) n = "\n" ++ (show n) ++ ". " ++ (take p $ repeat '|') ++ (setString ps (n+1))
+
 printGame :: Game -> IO()
-printGame = undefined
+printGame (Game set status) = do
+    putStrLn $ setString set 0
 
 next :: Move -> S.State Game ()
 next = undefined
@@ -34,6 +39,9 @@ play game@(Game set status) = do
                then readMove
                else makeMove
     play (S.execState (next move) game)
+
+set = [7, 5, 3, 1]
+game = Game set PlayerTurn
 
 
 main :: IO ()
